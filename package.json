@@ -1,0 +1,34 @@
+{
+  "name": "react_mail",
+  "version": "0.0.1",
+  "description": "Mailbox React Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify js/app.jsx -o built/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickuhn/react_mail.git"
+  },
+  "keywords": [
+    "React",
+    "Email"
+  ],
+  "author": "Nick Kuhn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickuhn/react_mail/issues"
+  },
+  "homepage": "https://github.com/nickuhn/react_mail#readme",
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "react": "^0.13.3",
+    "reactify": "^1.1.1"
+  },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  }
+}

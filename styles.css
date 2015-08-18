@@ -1,0 +1,21 @@
+h1, h3 {
+  text-align: center;
+}
+
+aside {
+  max-width: 25%;
+  display: inline-block;
+  float: left;
+  clear: left;
+}
+
+article {
+  max-width: 65%;
+  display: inline-block;
+  margin-left: 5%;
+}
+
+#folder-list, #email-list {
+  list-style-type: none;
+}
+
